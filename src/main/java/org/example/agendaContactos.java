@@ -12,10 +12,10 @@ import java.util.List;
  * @since 2024
  * @author Miriam Fernández Guerrero
  */
-public class Agenda {
+public class agendaContactos {
     private List<Contacto> contacts; // Lista de Contacto
 
-    public Agenda() {
+    public agendaContactos() {
         this.contacts = new ArrayList<>();
     }
 

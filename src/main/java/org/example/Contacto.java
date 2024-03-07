@@ -10,11 +10,11 @@ import java.util.List;
  * @since 2024
  * @author Miriam Fernández Guerrero
  */
-class Contacto {
+class Persona {
     private String name;
     private List<String> phones;
 
-    public Contacto(String name, String phone) {
+    public Persona(String name, String phone) {
         this.name = name;
         this.phones = new ArrayList<>();
         this.phones.add(phone);
